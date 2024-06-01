@@ -9,7 +9,7 @@ function Projects() {
   }, []);
   return (
     <div
-      className="lg:w-[80%] m-auto lg:grid lg:grid-cols-3 lg: gap-4 lg: pr-5 sm:grid sm:grid-cols-1"
+      className="lg:w-[80%] m-auto lg:grid lg:grid-cols-3 lg: gap-4 lg: pr-5 sm:grid sm:grid-cols-1 sm:w-[90%] sm:pl-2 sm:m-auto"
       data-aos="zoom-out"
       data-aos-delay="100"
       data-aos-duration="2700"
@@ -19,7 +19,7 @@ function Projects() {
         <a href="https://fatehtour.com/">
           <div
             id="border"
-            className="w-[75%] h-[90%] flex flex-col justify-center items-center"
+            className="xl:w-[75%] xl:h-[90%] sm:w-[100%] flex flex-col justify-center items-center"
           >
             <img
               src="./Images/sss.png"
@@ -110,7 +110,7 @@ function Projects() {
               class="image"
               className="xl:h-[120px] xl:w-[330px] xxl:h-[160px] xxl:w-[370px]"
             />
-            <h1 className="text-[white] font-semibold text-xl   xl:pb-7 xxl:flex xxl:justify-center xxl:items-center xl:flex xl:justify-center xl:items-center ">
+            <h1 className="text-[white] font-semibold text-xl   xl:pb-7 xxl:flex xxl:justify-center xxl:items-center xl:flex xl:justify-center xl:items-center sm: flex sm: justify-center ">
               {" "}
               Country Detail
             </h1>
@@ -120,12 +120,12 @@ function Projects() {
       <div>
         {" "}
         <a href="https://contact-manager-chi-six.vercel.app/">
-          <div id="border" className="w-[75%] h-[95%] ">
+          <div id="border" className="xl:w-[75%] xl:h-[95%] sm:w-[100%] ">
             <img
               src="./Images/contact.png"
               alt=""
               class="image"
-              className="lg:w-[330px] lg:h-[130px] xll:w-[320px]"
+              className="lg:w-[330px] xl:h-[130px] xll:w-[320px]"
             />
             <h1 className="text-[white] font-semibold text-xl flex justify-center pt-2 pb-1">
               {" "}
@@ -137,12 +137,12 @@ function Projects() {
       <div>
         {" "}
         <a href="https://dicegame-fqxd4wfez-afaq-ahmads-projects-01992365.vercel.app/">
-          <div id="border" className="w-[65%] h-[90%] ">
+          <div id="border" className="xl:w-[65%] xl:h-[90%] sm:w-[100%]">
             <img
               src="./Images/dice.png"
               alt=""
               class="image"
-              className="h-[130px] xxl:w-[350px]"
+              className="h-[130px] xxl:w-[350px] sm:w-[100%]"
             />
             <h1 className="text-[white] font-semibold text-xl flex justify-center pt-1 pb-3">
               {" "}
@@ -155,12 +155,12 @@ function Projects() {
       <div>
         {" "}
         <a href="https://news-web-pwze4kghp-afaq-ahmads-projects-01992365.vercel.app/">
-          <div id="border" className="w-[75%] h-[90%] ">
+          <div id="border" className="xl:w-[75%] xl:h-[90%] sm:w-[100%] ">
             <img
               src="./Images/news.png"
               alt=""
               class="image"
-              className="xl:h-[130px] xxl:w-[335px]"
+              className="xl:h-[130px] xxl:w-[335px] sm:w-[100%]"
             />
             <h1 className="text-[white] font-semibold text-xl flex justify-center pt-1">
               {" "}
