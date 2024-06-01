@@ -9,6 +9,7 @@ import Skills from "./Skills";
 import Education from "./Education";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./Footer";
+import Projects from "./Projects";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/ABOUTME" element={<Aboutme />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/education" element={<Education />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
         <Footer />
       </BrowserRouter>

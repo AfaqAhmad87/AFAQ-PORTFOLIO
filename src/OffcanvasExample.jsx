@@ -7,6 +7,7 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import { useNavigate } from "react-router";
 import Button from "react-bootstrap/Button";
 import "./index.css";
+import { NavLink } from "react-bootstrap";
 
 function OffcanvasExample() {
   const [showOffcanvas, setShowOffcanvas] = useState(false);
@@ -22,6 +23,7 @@ function OffcanvasExample() {
   const about = useNavigate();
   const skills = useNavigate();
   const edu = useNavigate();
+  const proj = useNavigate();
   return (
     <section className="lg:w-[80%] sm:w-[100%] lg:m-auto ">
       {["sm"].map((expand) => (
@@ -75,6 +77,12 @@ function OffcanvasExample() {
                   >
                     Education
                   </Nav.Link>
+                  <NavLink
+                    onClick={() => proj("projects")}
+                    className="text-slate-200 hover:text-teal-400 "
+                  >
+                    Projects
+                  </NavLink>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

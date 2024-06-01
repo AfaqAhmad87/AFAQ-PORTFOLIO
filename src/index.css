@@ -272,3 +272,15 @@ svg {
     stroke-dashoffset: 70;
   }
 }
+#border {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
+}
+.image {
+  transition: transform 2s; /* Add a smooth transition effect */
+}
+
+.image:hover {
+  transform: scale(0.9); /* Zoom out to 80% on hover */
+}

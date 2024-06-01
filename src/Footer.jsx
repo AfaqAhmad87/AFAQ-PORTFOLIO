@@ -43,11 +43,8 @@ function Footer() {
           text-[aqua]"
             />
           </a>
-          {/* 
-          <FaWhatsappSquare
-            className="w-8
-          text-[aqua]"
-          /> */}
+         
+         
           <FaFacebook
             className="w-8 xxl:w-10
           text-[aqua]"
