@@ -17,7 +17,7 @@ function Aboutme() {
             data-aos-duration="2700"
             className=""
           >
-            <img src="./Images/AFAQ.jpg" alt="" />
+            <img src="./Images/AFAQ.jpg" alt="" className="" />
           </div>
 
           <div
@@ -32,17 +32,13 @@ function Aboutme() {
             </div>
 
             <div>
-              <p className="lg:w-[100%] text-[#fff] lg:text-justify sm:text-justify sm:text[16px] sm:pr-3 lg:text-[20px] md:text-[24px]">
-                Junior Web Developer specializing in ReactJS.Experienced with
-                all stages of the development cycle for dynamic web projects.
-                Well-versed in front end development Technologies like HTML5
-                ,CSS, JavaScript, TailwindCSS,ReactJS. Strong background in
-                project management and customer relations.
+              <p className="lg:w-[100%] text-[#fff] lg:text-justify sm:text-justify sm:text[16px] sm:pr-3 lg:text-[15px] md:text-[24px]">
+              Experienced with all stages of the software development lifecycle for dynamic and robust web applications. Proficient in both front-end and back-end development, leveraging technologies such as HTML5, CSS, JavaScript, Tailwind CSS, ReactJS, and Laravel. Skilled in database management with MySQL and adept at integrating modern UI/UX principles with secure, scalable backend solutions. Possess a strong background in project management and customer relations, ensuring delivery of high-quality software aligned with client needs.
               </p>
             </div>
 
             <div className="">
-              <button class="button">Learn about me</button>
+              <button class="button"><a href="https://zarqsolution.com/our-team/">Learn about me</a></button>
             </div>
           </div>
         </section>

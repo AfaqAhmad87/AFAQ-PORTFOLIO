@@ -26,27 +26,26 @@ function Home() {
           <div className="lg:text-[1rem] sm:text-[11px] font-bold text-[aqua] sm:w-[100%] md:text-[1.5rem]">
             <TypeAnimation
               sequence={[
-                // Same substring at the start will only be typed out once, initially
-                "Front End Web Developer",
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
-
-                "In React JS",
-                1000,
+                "Full Stack Web Developer", // Type the text
+                1000, // Wait for 1 second
+                "", // Clear the text (this triggers the reverse animation effect)
+                1000, // Wait for 1 second
               ]}
               wrapper="span"
-              speed={50}
+              speed={50} // Typing and deleting speed
+              deletionSpeed={50} // Speed of the reverse effect
               style={{ fontSize: "2em", display: "inline-block" }}
-              repeat={Infinity}
+              repeat={Infinity} // Keep repeating the sequence
             />
           </div>
 
-          <div className="sm:">
+          {/* <div className="sm:">
             <button class="button">
               <a href="./Afaq Resume.pdf" download="My Resume.pdf">
                 My Resume
               </a>
             </button>
-          </div>
+          </div> */}
         </div>
         <div className="sm:w-[100%] sm:h-[full] md:pl-[100px]   ">
           <img

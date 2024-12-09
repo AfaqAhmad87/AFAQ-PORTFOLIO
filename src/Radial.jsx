@@ -4,12 +4,12 @@ function Radial() {
   return (
     <div
       class="dashboard"
-      className="flex flex-col items-center gap-7 text-[aqua]"
+      className="flex flex-col items-center gap-16 text-[aqua]"
     >
       <h4 className="text-[#fff] text-[2.5rem] relative top-[-7px] ">
         Other Skills
       </h4>
-      <div className="flex lg:gap-3 sm:gap-16 md:gap-[150px]">
+      <div className="flex lg:gap-10 sm:gap-16 md:gap-[150px]">
         <div className="flex flex-col items-center">
           <h4 className="text-[#fff] text-[16px]">Comunication Skills</h4>
           <svg>
@@ -29,7 +29,7 @@ function Radial() {
           <span className="text-[aqua]">50%</span>
         </div>
       </div>
-      <div className="lg:flex lg:gap-3 items-center sm:flex sm:flex-row sm:gap-16 md:gap-[150px]">
+      <div className="lg:flex lg:gap-10 items-center sm:flex sm:flex-row sm:gap-16 md:gap-[150px]">
         <div className="flex flex-col items-center">
           <h4 className="text-[#fff] text-[16px]">Creative </h4>
           <svg id="svgs">

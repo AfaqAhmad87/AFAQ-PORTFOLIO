@@ -27,9 +27,27 @@ function Skills() {
             </div>
           </div>
           <div>
+            <div className="lg:flex lg:flex-row lg:justify-between sm:flex sm:flex-row sm:justify-between ">
+              <h2 className="text-[#fff]">Laravel</h2>
+              <h2 className="text-[#fff]">90%</h2>
+            </div>
+            <div class="skills-line-container" className="bg-[#fff]">
+              <div class="skills-line1"></div>
+            </div>
+          </div>
+          <div>
+            <div className="lg:flex lg:flex-row lg:justify-between sm:flex sm:flex-row sm:justify-between ">
+              <h2 className="text-[#fff]">Mysql</h2>
+              <h2 className="text-[#fff]">80%</h2>
+            </div>
+            <div class="skills-line-container" className="bg-[#fff]">
+              <div class="skills-line1"></div>
+            </div>
+          </div>
+          <div>
             <div className="flex flex-row justify-between ">
               <h2 className="text-[#fff]">CSS3</h2>
-              <h2 className="text-[#fff]">70%</h2>
+              <h2 className="text-[#fff]">87%</h2>
             </div>
             <div class="skills-line-container" className="bg-[#fff]">
               <div class="skills-line2"></div>
@@ -47,7 +65,7 @@ function Skills() {
           <div>
             <div className="flex flex-row justify-between">
               <h2 className="text-[#fff]">ReactJS</h2>
-              <h2 className="text-[#fff]">50%</h2>
+              <h2 className="text-[#fff]">69%</h2>
             </div>
             <div class="skills-line-container" className="bg-[#fff]">
               <div class="skills-line4"></div>
